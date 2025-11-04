@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig = {
-  basePath: "/2048-in-react",
-  output: "export",
-  reactStrictMode: true,
+  output: 'export',
+  images: { unoptimized: true },
+  basePath: '/final-project-website-senior-syndicate',
+  assetPrefix: '/final-project-website-senior-syndicate/',
 };
 
 module.exports = nextConfig;
