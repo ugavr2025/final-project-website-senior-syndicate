@@ -21,7 +21,7 @@ export default function Home() {
     {
       imageSrc: "/Kelsey.jpg",
       name: "Marra Young",
-      bio: "Bio here",
+      bio: "Computer systems engineer passionate about creating immersive virtual and mixed reality experiences that blend technology and design.",
     },
   ];
   return (
