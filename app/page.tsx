@@ -14,9 +14,9 @@ export default function Home() {
       bio: "Bio here",
     },
     {
-      imageSrc: "/Kelsey.jpg",
+      imageSrc: "/bio.jfif",
       name: "Blake Withee",
-      bio: "Bio here",
+      bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems",
     },
     {
       imageSrc: "/Kelsey.jpg",
