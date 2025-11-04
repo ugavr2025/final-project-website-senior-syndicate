@@ -14,7 +14,7 @@ export default function Home() {
       bio: "Bio here",
     },
     {
-      imageSrc: "/bio.jfif",
+      imageSrc: "/IMG_9794.JPG",
       name: "Blake Withee",
       bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems",
     },
@@ -30,7 +30,7 @@ export default function Home() {
       <div className="border-l-4 border-blue-500 pl-6">
         <h2 className="text-3xl font-semibold tracking-tight">Project Description</h2>
         <p className="mt-3 text-gray-600 text-lg leading-relaxed">
-          A focused explanation of the project’s purpose, core idea, and impact.
+          This project aims to implement an educational simulation. Users will interact with their surroundings and environment for an immersive virtual learning experience.
         </p>
       </div>
     </section>
