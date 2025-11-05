@@ -19,7 +19,7 @@ export default function Home() {
       bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems",
     },
     {
-      imageSrc: "/Kelsey.jpg",
+      imageSrc: "/marra.jpg",
       name: "Marra Young",
       bio: "Computer systems engineer passionate about creating immersive virtual and mixed reality experiences that blend technology and design.",
     },
