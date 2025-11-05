@@ -1,12 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: 'export',
-  images: { unoptimized: true },
-  basePath: '/final-project-website-senior-syndicate',
-  assetPrefix: '/final-project-website-senior-syndicate/',
+  basePath: process.env.PAGES_BASE_PATH,
 };
-
-module.exports = nextConfig;
 
 export default nextConfig;
