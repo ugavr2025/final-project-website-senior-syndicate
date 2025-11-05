@@ -9,9 +9,9 @@ export default function Home() {
       bio: "Full-stack developer passionate about solving complex problems and building community through impactful software.",
     },
     {
-      imageSrc: "/Kelsey.jpg",
+      imageSrc: "/angel.jpg",
       name: "Angel Hoang",
-      bio: "Bio here",
+      bio: "Full-stack developer focused on building thoughtful and user-centered experiences",
     },
     {
       imageSrc: "/IMG_9794.JPG",
