@@ -1,25 +1,29 @@
 import Image from "next/image";
 import ProfileCard from "./components/ProfileCard";
+import Kelsey from "./images/Kelsey.jpg"
+import Angel from "./images/angel.jpg"
+import Blake from "./images/IMG_9794.jpg"
+import Marra from "./images/marra.jpg"
 
 export default function Home() {
   const people = [
     {
-      imageSrc: "/Kelsey.jpg",
+      imageSrc:  Kelsey,
       name: "Kelsey Sterner",
       bio: "Full-stack developer passionate about solving complex problems and building community through impactful software.",
     },
     {
-      imageSrc: "/angel.jpg",
+      imageSrc: Angel,
       name: "Angel Hoang",
       bio: "Full-stack developer focused on building thoughtful and user-centered experiences",
     },
     {
-      imageSrc: "/IMG_9794.JPG",
+      imageSrc: Blake,
       name: "Blake Withee",
       bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems",
     },
     {
-      imageSrc: "/marra.jpg",
+      imageSrc: Marra,
       name: "Marra Young",
       bio: "Computer systems engineer passionate about creating immersive virtual and mixed reality experiences that blend technology and design.",
     },
