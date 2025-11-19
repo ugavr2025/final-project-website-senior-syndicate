@@ -8,22 +8,22 @@ import Marra from "./images/marra.jpg"
 export default function Home() {
   const people = [
     {
-      imageSrc:  Kelsey,
+      imageSrc:  "../images/Kelsey.jpg",
       name: "Kelsey Sterner",
       bio: "Full-stack developer passionate about solving complex problems and building community through impactful software.",
     },
     {
-      imageSrc: Angel,
+      imageSrc: "../images/angel.jpg",
       name: "Angel Hoang",
-      bio: "Full-stack developer focused on building thoughtful and user-centered experiences",
+      bio: "Full-stack developer focused on building thoughtful and user-centered experiences.",
     },
     {
-      imageSrc: Blake,
+      imageSrc: "../images/IMG_9794.jpg",
       name: "Blake Withee",
-      bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems",
+      bio: "Embedded systems engineer with experience in designing and integrating both hardware and software systems.",
     },
     {
-      imageSrc: Marra,
+      imageSrc: "../images/marra.jpg",
       name: "Marra Young",
       bio: "Computer systems engineer passionate about creating immersive virtual and mixed reality experiences that blend technology and design.",
     },
