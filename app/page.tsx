@@ -38,6 +38,7 @@ export default function Home() {
           immersive learning experience. Users can explore and operate a variety of machines typically found in a fab lab, gaining hands-on experience in a safe virtual environment. 
           The simulation aims to enhance understanding of manufacturing processes, machine operations, 
           and fabrication techniques while fostering engagement and practical learning without the risks or limitations of a physical lab.
+          </p>
       </div>
     </section>
 
