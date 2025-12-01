@@ -34,8 +34,10 @@ export default function Home() {
       <div className="border-l-4 border-blue-500 pl-6">
         <h2 className="text-3xl font-semibold tracking-tight">Project Description</h2>
         <p className="mt-3 text-gray-600 text-lg leading-relaxed">
-          This project aims to implement an educational simulation. Users will interact with their surroundings and environment for an immersive virtual learning experience.
-        </p>
+          This project is a virtual Fabrication Lab and Machine Shop simulation designed to provide users with an interactive, 
+          immersive learning experience. Users can explore and operate a variety of machines typically found in a fab lab, gaining hands-on experience in a safe virtual environment. 
+          The simulation aims to enhance understanding of manufacturing processes, machine operations, 
+          and fabrication techniques while fostering engagement and practical learning without the risks or limitations of a physical lab.
       </div>
     </section>
 
