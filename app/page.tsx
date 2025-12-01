@@ -2,7 +2,7 @@ import Image from "next/image";
 import ProfileCard from "./components/ProfileCard";
 import Kelsey from "./images/Kelsey.jpg"
 import Angel from "./images/angel.jpg"
-import Blake from "./images/IMG_9794.jpg"
+import Blake from "./images/IMG_9794.JPG"
 import Marra from "./images/marra.jpg"
 
 export default function Home() {
