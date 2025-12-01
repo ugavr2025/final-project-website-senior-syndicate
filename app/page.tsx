@@ -8,7 +8,7 @@ import Marra from "./images/marra.jpg"
 export default function Home() {
   const people = [
     {
-      imageSrc:  "../images/Kelsey.jpg",
+      imageSrc:  Kelsey,
       name: "Kelsey Sterner",
       bio: "Full-stack developer passionate about solving complex problems and building community through impactful software.",
     },
