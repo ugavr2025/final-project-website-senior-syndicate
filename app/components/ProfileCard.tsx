@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData} from "next/image";
 
 interface ProfileCardProps {
-  imageSrc: string;
+  imageSrc: StaticImageData;
   name: string;
   bio: string;
 }
@@ -11,7 +11,7 @@ export default function ProfileCard({ imageSrc, name, bio }: ProfileCardProps) {
     <div className="flex flex-col items-center text-center rounded-2xl shadow-md p-6 hover:shadow-lg transition">
       <div className="w-28 h-28 relative">
         <Image
-          src={`${process.env.PAGES_BASE_PATH || ''}${imageSrc}`}
+          src={imageSrc}
           alt={name}
           fill
           className="object-cover rounded-full"
