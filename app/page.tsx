@@ -47,13 +47,22 @@ export default function Home() {
     </section>
 
     <section className="w-full max-w-6xl mx-auto py-14">
-      <div className="border-l-4 border-yellow-500 pl-6">
-        <h2 className="text-3xl font-semibold tracking-tight">Video</h2>
-        <p className="mt-3 text-gray-600 text-lg leading-relaxed">
-          A clear walkthrough demonstrating how the application functions.
-        </p>
-      </div>
-    </section>
+    <div className="border-l-4 border-yellow-500 pl-6">
+      <h2 className="text-3xl font-semibold tracking-tight">Video</h2>
+      <p className="mt-3 text-gray-600 text-lg leading-relaxed">
+        A clear walkthrough demonstrating how the application functions.
+      </p>
+
+      <video 
+      className="mt-6 w-full rounded-lg shadow-lg" 
+      controls
+      >
+        <source src="/videos/demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
 
     <section className="w-full max-w-6xl mx-auto py-14">
       <div className="border-l-4 border-green-500 pl-6">
