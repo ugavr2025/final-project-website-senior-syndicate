@@ -66,7 +66,7 @@ export default function Home() {
       </div>
     </section>
 
-      <h2 className="text-2xl font-semibold tracking-tight">Members</h2>
+     
       
     </div>
   );
